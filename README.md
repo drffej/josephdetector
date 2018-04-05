@@ -17,20 +17,29 @@ recognition library using deep learning.
 ### Setup Raspberry Pi
 
  * Download and Setup Raspberry Pi and connect to wireless network by following the instructions [here](https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65).  This will setup Dlib and Face Recognition libraries
+ * Fix the missing library
+ ```bash
+sudo apt-get install libatlas-base-dev
+```
  * Install flask 
  ```bash
  pip3 install Flask
  ```
- 
+ * Download the example
+ ```bash
+git clone --single-branch https://github.com/drffej/josephdetector
+```
+
  ## Usage
  
  Run the example via the command
  
  ```bash
+ cd josephdetector
  python3 josephdetector.py
  ```
  
- After a few minutes this will run a web server 
+After a few minutes this will run a web server 
  
  ```bash
 Starting detector and loading libraries
