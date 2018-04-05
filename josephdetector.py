@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Joeseph Detector
-# (c) 2018 Jeff Parker
+# (c) 2018 Jeff Parker   
 #
 # Based on code and ideas from Adam Geity and Davis King
 #
