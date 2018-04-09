@@ -51,5 +51,5 @@ Jeff and Joseph images loaded.
  Open a browser session to the URL (or whatever name the pi is called)
   
  ```bash
- http://http://raspberrypi:5000/video_feed
+ http://raspberrypi:5000/video_feed
  ```
